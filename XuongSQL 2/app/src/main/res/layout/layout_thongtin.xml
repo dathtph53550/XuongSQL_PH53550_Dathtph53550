@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/khung_thongtin"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mã : "
+            android:textSize="20dp"
+            android:layout_weight="1.9"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvMa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TenNguoiDung"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textSize="20dp"
+            android:textColor="#F40101"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Họ Đệm : "
+            android:textSize="20dp"
+            android:layout_weight="2.9"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHoDem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EmailNguoiDung"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textSize="15dp"
+            android:textColor="#F40101"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên : "
+            android:textSize="20dp"
+            android:layout_weight="1.9"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VaiTroNguoiDung"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textSize="20dp"
+            android:textColor="#F40101"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lương : "
+            android:textSize="20dp"
+            android:layout_weight="1.9"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvLuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ChieuCaoNguoiDu"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textSize="20dp"
+            android:textColor="#F40101"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Địa Chỉ : "
+            android:textSize="20dp"
+            android:layout_weight="1.9"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvDiaChi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CnNguoiDung"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textSize="20dp"
+            android:textColor="#F40101"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mã Phòng : "
+            android:textSize="20dp"
+            android:layout_weight="1.9"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvMaPhongBan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GTNguoiDung"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textSize="20dp"
+            android:textColor="#F40101"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnThayDoiThongTin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thay đổi thông tin"
+        android:background="@drawable/khung_btndelete"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>

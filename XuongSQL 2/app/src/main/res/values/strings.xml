@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoNav</string>
+    <string name="chuoi_open">Open</string>
+    <string name="chuoi_close">Close</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnu_ThongTinNhanSu"
+        android:title="Trang Chủ"/>
+
+    <item android:id="@+id/mnu_ThongTinCaNhan"
+        android:title="Thông Tin Cá Nhân"/>
+
+    <item android:id="@+id/mnu_QuanLyNhanSu"
+        android:title="Quản lý Nhân Viên"/>
+
+    <item android:title="Quản Lý Phòng Ban"
+            android:id="@+id/mnu_QuanLyPhongBan"/>
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Thống Kê">
+            <menu>
+                <item
+                    android:id="@+id/mTop10"
+                    android:title="Sắp Xếp Lương" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Khác">
+            <menu>
+                <item
+                    android:id="@+id/mDoiMatKhau"
+                    android:title="Đổi Mật Khẩu" />
+                <item
+                    android:id="@+id/mDangXuat"
+                    android:title="Đăng Xuất" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
